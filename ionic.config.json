@@ -1,0 +1,8 @@
+{
+  "name": "Leave Tracker",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular",
+  "id": "ede1ed70"
+}
