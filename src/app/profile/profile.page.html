@@ -1,0 +1,73 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar color="light">
+    <ion-title></ion-title>
+
+    <ion-buttons slot="start">
+      <ion-button color="dark">
+        <ion-icon slot="start" style="width: 24px;height: 24px;" name="chevron-back"></ion-icon>Back
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content color="light">
+  <ion-row class="profile-header ion-align-items-center">
+    <ion-col size="auto">
+      <ion-avatar class="avatar-lg has-update has-status">
+        <img src="assets/avatars/profile.png" alt="">
+      </ion-avatar>
+    </ion-col>
+    <ion-col>
+      <ion-row class="profile-stats">
+        <ion-col style="max-width: 20%;">
+        </ion-col>
+        <ion-col>
+          <ion-chip outline color="primary" style="border-color: rgba(var(--ion-color-base-rgb), 1); font-weight: bold; ">
+            <ion-icon name="create" color="primary"></ion-icon>
+            <ion-label>EDIT PROFILE</ion-label>
+          </ion-chip>
+        </ion-col>
+      </ion-row>
+    </ion-col>
+  </ion-row>
+
+  <div class="ion-padding profile-info">
+    <strong>Karthik Raju</strong>
+    <div>
+      Role - <strong>Java Developer</strong>
+    </div>
+    <div>
+      Project - <strong>Storecentral New initatives</strong>
+    </div>
+
+  </div>
+
+  <div class="ion-padding">
+    <!-- <ion-button expand="block" fill="outline" color="dark" size="small">
+      Edit Profile
+    </ion-button> -->
+  </div>
+
+  <ion-segment value="active" class="tab-selection" >
+    <ion-segment-button value="active">
+      <ion-icon style="font-size: 14px;" name="calendar"></ion-icon>
+      <ion-label style="font-size: 10px;" >Leave</ion-label>
+    </ion-segment-button>
+    <ion-segment-button>
+      <ion-icon style="font-size: 14px;" name="ribbon"></ion-icon>
+      <ion-label style="font-size: 10px;" >Skills</ion-label>
+    </ion-segment-button>
+    <ion-segment-button>
+      <ion-icon style="font-size: 14px;" name="people"></ion-icon>
+      <ion-label style="font-size: 10px;" >Team</ion-label>
+    </ion-segment-button>
+  </ion-segment>
+
+  <div class="post-grid">
+    <!-- <ion-row>
+      <ion-col size="4" *ngFor="let i of [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17]">
+        <div class="post-item bg-image" [style.backgroundImage]="'url(assets/img/img_' + (i % 4 + 1) + '.png)'"></div>
+      </ion-col>
+    </ion-row> -->
+  </div>
+</ion-content>

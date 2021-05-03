@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "125743175291",
+    "project_id": "leavetracker194",
+    "storage_bucket": "leavetracker194.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:125743175291:android:21a1040e7858d2e23174de",
+        "android_client_info": {
+          "package_name": "com.orange.leavetracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "125743175291-fqg30thpeblvfohalbj47uavmcufripl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCY21x8OtnrfzMf9Hq3MDczh6EO5MejNjE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "125743175291-fqg30thpeblvfohalbj47uavmcufripl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

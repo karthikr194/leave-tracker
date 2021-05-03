@@ -1,0 +1,43 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar color="primary">
+    <ion-title>
+      Apply Leave
+    </ion-title>
+
+     <ion-buttons slot="start">
+      <ion-button>
+        <ion-icon slot="start" style="width: 24px;height: 24px;" name="chevron-back"></ion-icon>
+      </ion-button>
+    </ion-buttons> 
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+
+        <ion-item>
+            <ion-label position="floating">Request Approver</ion-label>
+            <ion-input [mention]="items"></ion-input>
+        </ion-item>
+
+        
+
+       
+
+        <ion-item>
+          <ion-label position="floating">Start Date</ion-label>
+          <ion-datetime
+          ></ion-datetime>
+        </ion-item>
+     
+        <ion-item>
+            <ion-label position="floating">Reason</ion-label>
+            <ion-textarea></ion-textarea>
+        </ion-item>
+        <section>
+         
+          <ion-button expand="block">Submit</ion-button>
+        </section>
+
+</ion-list>
+</ion-content>

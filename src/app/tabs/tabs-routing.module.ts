@@ -8,27 +8,38 @@ const routes: Routes = [
     component: TabsPage,
     children: [
       {
-        path: 'tab1',
-        loadChildren: () => import('../tab1/tab1.module').then(m => m.Tab1PageModule)
+        path: 'team-list',
+        loadChildren: () => import('../team-list/team-list.module').then( m => m.TeamListPageModule)
       },
       {
-        path: 'tab2',
-        loadChildren: () => import('../tab2/tab2.module').then(m => m.Tab2PageModule)
+        path: 'request-list',
+        loadChildren: () => import('../request-list/request-list.module').then( m => m.RequestListPageModule)
       },
       {
-        path: 'tab3',
-        loadChildren: () => import('../tab3/tab3.module').then(m => m.Tab3PageModule)
+        path: 'view-news',
+        loadChildren: () => import('../view-news/view-news.module').then( m => m.ViewNewsPageModule)
+      },
+      {
+        path: 'profile',
+        loadChildren: () => import('../profile/profile.module').then( m => m.ProfilePageModule)
+      },  {
+        path: 'employee-details',
+        loadChildren: () => import('../employee-details/employee-details.module').then( m => m.EmployeeDetailsPageModule)
+      },
+      {
+        path: 'apply-leave',
+        loadChildren: () => import('../apply-leave/apply-leave.module').then( m => m.ApplyLeavePageModule)
       },
       {
         path: '',
-        redirectTo: '/tabs/tab1',
+        redirectTo: '/tabs/team-list',
         pathMatch: 'full'
       }
     ]
   },
   {
     path: '',
-    redirectTo: '/tabs/tab1',
+    redirectTo: '/tabs/team-list',
     pathMatch: 'full'
   }
 ];
